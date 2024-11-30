@@ -5,6 +5,7 @@
 
 ## How To run 
 - set database on .env 
+- run `composer install`
 - run migration `php artisan:migrate`
 - run seed `php artisan:db seed`
 - `Important`: Email service using queue so you can also run `php artisan queue:work`
