@@ -8,6 +8,7 @@
 - run `composer install`
 - run migration `php artisan:migrate`
 - run seed `php artisan:db seed`
+- run `php artisan key:generate`
 - `Important`: Email service using queue so you can also run `php artisan queue:work`
 - To run the service, run `php artisan:serve`
 
